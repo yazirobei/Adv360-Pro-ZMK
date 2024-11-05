@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
-   &kp ESC     &kp N1     &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM     &kp N8  &kp KP_DIVIDE  &kp KP_MULTIPLY         &kp MINUS
-   &kp TAB      &kp Q      &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7  &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &kp LEFT_BRACKET
-  &kp CAPS      &kp A      &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp KP_N4  &kp KP_N5      &kp KP_N6      &kp KP_PLUS  &kp SINGLE_QUOTE
- &kp LSHFT      &kp Z      &kp X     &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp KP_N1  &kp KP_N2      &kp KP_N3     &kp KP_ENTER         &kp RSHFT
-     &mo 2  &kp GRAVE  &kp EQUAL  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP   &kp DOWN     &kp KP_DOT     &kp KP_ENTER             &mo 2
+   &kp ESC      &none      &none     &none      &none   &none               &trans                                                                  &mo 3   &none  &kp KP_NUM      &none       &none    &kp KP_DIVIDE         &kp MINUS
+   &kp TAB      &kp Q      &kp W     &kp E      &kp R   &kp T                &none                                                                  &none   &kp Y   &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_MULTIPLY             &none
+ &kp LCTRL      &kp A      &kp S     &kp D      &kp F   &kp G                &none  &kp LCTRL   &kp LGUI                   &kp LALT  &kp RCTRL      &none   &kp H   &kp KP_N4  &kp KP_N5   &kp KP_N6     &kp KP_MINUS  &kp SINGLE_QUOTE
+ &kp LSHFT      &kp Z      &kp X     &kp C      &kp V   &kp B                                   &kp HOME                    &kp END                         &kp N   &kp KP_N1  &kp KP_N2   &kp KP_N3      &kp KP_PLUS         &kp RSHFT
+     &mo 2  &kp GRAVE  &kp EQUAL  &kp LEFT  &kp RIGHT                    &kp ENTER    &kp DEL  &kp PG_DN                  &kp PG_UP   &kp BSPC  &kp KP_N0              &kp UP   &kp DOWN  &kp KP_DOT     &kp KP_ENTER             &mo 2
             >;
         };
 
